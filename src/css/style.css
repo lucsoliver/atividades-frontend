@@ -1,4 +1,83 @@
 * {
   padding: 0;
   margin: 0;
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #d3d3d3;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  background-color: #d3d3d3;
+  margin: 20px 0;
+}
+
+.navCategoria ul li a {
+  color: blue;
+}
+
+.Pimagem .imagem {
+  width: 100%;
+}
+
+#ImgPreco {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#ImgPreco .artImagemPreco {
+  margin: 0 20px;
+}
+
+#imgPreco picture img {
+  width: 100%;
+}
+
+.subRodape {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: rgb(211, 211, 211);
+  margin: 2em 9em 0 9em;
+  width: auto;
+}
+
+.pagtoEcertificado {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: rgb(211, 211, 211);
+  margin: 2em 9em 0 9em;
+  width: auto;
+}
+
+.artCertificado {
+  margin-top: 2em;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgb(211, 211, 211);
+  margin: 2em 9em 2em 9em;
+  width: auto;
+}
+
+#artRedesSociais {
+  margin-right: 2em;
+}
+
+#imgRodape {
+  padding: 2em;
 }
